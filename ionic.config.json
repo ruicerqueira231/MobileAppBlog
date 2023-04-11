@@ -1,0 +1,7 @@
+{
+  "name": "blogPessoal",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
