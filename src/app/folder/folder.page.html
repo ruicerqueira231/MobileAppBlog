@@ -1,21 +1,27 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button>
-    </ion-buttons>
-    <ion-title>{{ folder }}</ion-title>
-  </ion-toolbar>
+<ion-header>
+  <ion-buttons slot="start">
+    <ion-menu-button id="burguer" color="light"></ion-menu-button>
+  </ion-buttons>
+  <ion-title>Rui Cerqueira</ion-title>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">{{ folder }}</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content color="light">
+  <div class="page-content">
+    <p>BEM VINDES À MINHA APLICAÇÂO</p>
+    <img src="assets/imagens/perfil.jpg" alt="My image">
+    <p>Olá a todes!</p>
+    <p>O meu nome é Rui Cerqueira, tenho 22 anos e sou dos Arcos de Valdevez. De momento, estou a frequentar o curso de Engenharia Informática, no IPVC. E foi no âmbito da minha licenciatura que decidi criar esta aplicação, onde me poderão ficar a conhecer melhor e até conhecer o local onde nasci.
+      Espero que gostem,</p>
+      <div class="botaoEducacao">
+        <ion-button color="secondary">Educação</ion-button>
+      </div>
+      <div class="botaoDesporto">
+        <ion-button color="secondary">Desporto</ion-button>
+      </div>
   </div>
 </ion-content>
+
+
+
+
+

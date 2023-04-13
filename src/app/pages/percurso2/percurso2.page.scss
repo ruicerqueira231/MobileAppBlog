@@ -1,0 +1,40 @@
+#my-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  #iconHome, #iconMan {
+    font-size: 28px;
+  }
+  
+  /* Style for the content */
+  .textoEducacao {
+    color: #6F6E6E;
+    padding: 20px;
+    text-align: justify;
+  }
+  
+  .textoEducacao h4 {
+    color: #6F6E6E;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .textoEducacao p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }

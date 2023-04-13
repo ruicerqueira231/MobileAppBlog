@@ -1,0 +1,63 @@
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #my-toolbar {
+    height: 50px;
+    position: relative; /* make the toolbar a relative position container */
+  }
+  
+  ion-title {
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    font-size: 20px;
+  }
+  
+  #iconMan {
+    position: absolute;
+    right: 80px;
+    top: 7px;
+    width: 30px;
+    height: 40px;
+  }
+  
+  #iconHome {
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    width: 30px;
+    height: 40px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-top: -370px; 
+  }
+  
+.botaoArcos,
+.botaoLocais,
+.botaoComer,
+.botaoOndeFicar {
+  display: inline-block;
+  width: 250px;
+  height: 50px;
+  margin-bottom: 20px; 
+}
+
+ion-button {
+  width: 100%;
+}
+
+.imgContainer{
+    display: flex; 
+    justify-content: center;
+    margin-top: -400px;
+}

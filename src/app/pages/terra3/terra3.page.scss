@@ -1,0 +1,66 @@
+ion-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  #my-toolbar {
+    --background: #007bff;
+    --color: #fff;
+    padding: 0 10px;
+  }
+  
+  #iconHome, #iconMan {
+    font-size: 24px;
+  }
+  
+  .textoComer{
+    padding:0 10px;
+    color: #6F6E6E;
+  }
+  
+  .textoComer h4 {
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+  }
+  
+  .textoComer p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .textoComer img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  .textoSobremesas {
+    margin-top: 50px;
+    padding:0 10px;
+    color: #6F6E6E;
+  }
+  
+  .textoSobremesas p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .textoSobremesas h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .textoSobremesas img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
