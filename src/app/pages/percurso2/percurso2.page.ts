@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { IonicModule } from '@ionic/angular';
+import { IonicModule, NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-percurso2',
@@ -12,9 +12,15 @@ import { IonicModule } from '@ionic/angular';
 })
 export class Percurso2Page implements OnInit {
 
-  constructor() { }
+  constructor(private navCtrl: NavController) { }
 
   ngOnInit() {
   }
 
+  goToPageHome(){
+    this.navCtrl.navigateBack('/Home/inbox');
+  }
+  goToPageVoluntariado(){
+    this.navCtrl.navigateForward('/percurso3');
+  }
 }

@@ -1,6 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { IonicModule } from '@ionic/angular';
+import { IonicModule, NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-folder',
@@ -12,7 +12,17 @@ import { IonicModule } from '@ionic/angular';
 export class FolderPage implements OnInit {
   public folder!: string;
   private activatedRoute = inject(ActivatedRoute);
-  constructor() {}
+  constructor(private navCtrl: NavController){
+  
+  }
+
+  goToPagePercurso() {
+    this.navCtrl.navigateForward('/percurso-main');
+  }
+
+  goToPageTerra() {
+    this.navCtrl.navigateForward('/terra-main');
+  }
 
   ngOnInit() {
     this.folder = this.activatedRoute.snapshot.paramMap.get('id') as string;

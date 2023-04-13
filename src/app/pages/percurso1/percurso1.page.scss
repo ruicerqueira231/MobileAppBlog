@@ -38,3 +38,25 @@
     max-width: 100%;
     height: auto;
   }
+
+  .button-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+  .botaoVoltarHome,
+  .botaoDesporto {
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 20px;
+    }
+
+    .botaoVoltarHome{
+      margin-left: -20px;
+    }
+    .botaoDesporto{
+      margin-right: -150px;
+    }

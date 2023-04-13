@@ -12,11 +12,13 @@
     <p>Olá a todes!</p>
     <p>O meu nome é Rui Cerqueira, tenho 22 anos e sou dos Arcos de Valdevez. De momento, estou a frequentar o curso de Engenharia Informática, no IPVC. E foi no âmbito da minha licenciatura que decidi criar esta aplicação, onde me poderão ficar a conhecer melhor e até conhecer o local onde nasci.
       Espero que gostem,</p>
-      <div class="botaoEducacao">
-        <ion-button color="secondary">Educação</ion-button>
-      </div>
-      <div class="botaoDesporto">
-        <ion-button color="secondary">Desporto</ion-button>
+      <div class="button-container">
+        <div class="botaoEducacao">
+          <ion-button color="secondary" (click) = "goToPagePercurso()">O meu percurso</ion-button>
+        </div>
+        <div class="botaoDesporto">
+          <ion-button color="secondary" (click) = "goToPageTerra()">A minha terra</ion-button>
+        </div>
       </div>
   </div>
 </ion-content>

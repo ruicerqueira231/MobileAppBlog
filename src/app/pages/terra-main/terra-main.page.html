@@ -11,19 +11,20 @@
 </ion-header>
 
 <ion-content color="light">
+  <ion-back-button defaultHref="/Home/inbox" text="Voltar Atrás" icon="arrow-back"></ion-back-button>
   <div class="page-content">
     <div class="button-container">
       <div class="botaoArcos">
-        <ion-button color="secondary">Arcos de Valdevez</ion-button>
+        <ion-button color="secondary" (click) = "goToPageTerra1()">Arcos de Valdevez</ion-button>
       </div>
       <div class="botaoLocais">
-        <ion-button color="secondary">Locais a não perder</ion-button>
+        <ion-button color="secondary" (click) = "goToPageTerra2()">Locais a não perder</ion-button>
       </div>
       <div class="botaoComer">
-        <ion-button color="secondary">O que comer</ion-button>
+        <ion-button color="secondary" (click) = "goToPageTerra3()">O que comer</ion-button>
       </div>
       <div class="botaoOndeFicar">
-        <ion-button color="secondary">Onde ficar</ion-button>
+        <ion-button color="secondary" (click) = "goToPageTerra4()">Onde ficar</ion-button>
       </div>
     </div>
   </div>

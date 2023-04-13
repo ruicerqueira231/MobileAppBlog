@@ -7,6 +7,9 @@ ion-title{
   font-size: 20px;
   color: white;
 }
+p{
+  color: #6F6E6E;
+}
 
 #burguer {
   height: 60px;
@@ -41,16 +44,22 @@ img {
   border-radius: 3%;
   }
 
+  .button-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+  }
   .botaoEducacao,
   .botaoDesporto {
-    margin-top:30px;
     display: inline-block;
-    color: white;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 20px;
     }
 
     .botaoEducacao{
-      margin-right: 10px;
+      margin-right: 20px;
     }
     .botaoDesporto{
-      margin-left: 160px;
+      margin-left: 80px;
     }

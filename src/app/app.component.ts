@@ -17,7 +17,7 @@ export class AppComponent {
     { title: 'Arcos de Valdevez', url: './terra1', icon: 'flag' },
     { title: 'Locais', url: './terra2', icon: 'business' },
     { title: 'Comida', url: './terra3', icon: 'fast-food' },
-    { title: 'Estadia', url: './terra3', icon: "bed"},
+    { title: 'Estadia', url: './terra4', icon: "bed"},
   ];
   constructor() {}
 }
