@@ -64,3 +64,25 @@ ion-header {
     border-radius: 10px;
     margin-bottom: 20px;
   }
+
+  .button-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+  .botaoVoltarHome,
+  .botaoAlojamento {
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 20px;
+    }
+
+    .botaoVoltarHome{
+      margin-left: -20px;
+    }
+    .botaoAlojamento{
+      margin-right: -150px;
+    }

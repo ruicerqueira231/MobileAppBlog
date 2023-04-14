@@ -5,15 +5,18 @@ ion-header {
     right: 0;
     z-index: 10;
   }
-  
+  ion-content{
+    padding: 0 20px;
+  }
   #my-toolbar {
-    --background: #007bff;
-    --color: #fff;
     padding: 0 10px;
   }
   
   #iconHome, #iconMan {
     font-size: 24px;
+  }
+  h4 p{
+    color: #6e6e6e;
   }
   
   .textoEducacao h4 {
@@ -102,3 +105,29 @@ ion-header {
   .textoSoajo p{
     margin-top:10px;
   }
+
+  .container{
+    padding: 0 20px;
+  }
+
+  .button-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+  .botaoVoltarHome,
+  .botaoComer {
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 20px;
+    }
+
+    .botaoVoltarHome{
+      margin-left: -20px;
+    }
+    .botaoComer{
+      margin-right: -150px;
+    }
